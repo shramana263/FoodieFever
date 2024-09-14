@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+.height_img{
+  height: 600px;
+}
+.cart_icon{
+  position: absolute;
+  top: 550px;
+  left:670px;
+  float: right;
+  justify-content: end;
+}
+@media screen and (min-width: 800px) {
+  .cart_icon{
+    position: absolute;
+    left:1420px;
+    top: 550px;
+    float: right;
+    justify-content: end;
+  }
+  
+}
